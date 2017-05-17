@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>TicTacToe-Ception</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="tttstyle.css">
+  </head>
+  <body>
+    <div class="hero" id="hero" style="width: auto; position: center;">
+      <h1>TicTacToe-Ception</h1>
+      <div id="cr-stage"></div>
+      <p>
+        <pre id="score" class="code">Nobody Wins</pre>
+        <a class="pure-button-primary pure-button" onClick="engine.restart(-1)">Reset</a>
+		<pre class="code">Warning: Changing difficulty will restart stats.</pre>
+		<a class="pure-button-primary pure-button" onClick="engine.restart(1)">Medium</a>
+		<a class="pure-button-primary pure-button" onClick="engine.restart(2)">Hard</a>
+		<a class="pure-button-primary pure-button" onClick="engine.restart(3)">Near Impossible</a>
+      </p>
+    </div>
+
+    <script data-main="main.js" src="require.js"></script>
+
+  </body>
+</html>

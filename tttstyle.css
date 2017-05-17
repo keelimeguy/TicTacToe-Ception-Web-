@@ -1,0 +1,59 @@
+.hero {
+    text-align: center;
+	float: center;
+}
+    .hero-titles {
+        font-family: "omnes-pro", sans-serif;
+        padding: 0 1em;
+        margin: 2em auto;
+        max-width: 768px;
+    }
+    .hero-site {
+        font-size: 400%;
+        font-weight: 100;
+        margin: 0;
+        color: #1f8dd6;
+    }
+    .hero-tagline {
+        font-size: 150%;
+        font-weight: 100;
+        line-height: 1.5;
+        margin: 0 0 1em;
+        color: #666;
+    }
+
+.hero-cta .code {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cr-stage {
+  width: 50%;
+  margin: 0 auto;
+}
+body {
+  background-image: url(squairy_light.png);
+  background-position: initial initial;
+  background-repeat: initial initial;
+}
+.code {
+  margin-left: auto;
+  margin-right: auto;
+  border-left-width: 1px;
+  border-right-width: 1px;
+}
+.code {
+  margin-left: -1em;
+  margin-right: -1em;
+  padding: 1em;
+  border: 1px solid #eee;
+  border-left-width: 0;
+  border-right-width: 0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+pre, code {
+  font-family: Consolas, 'Liberation Mono', Courier, monospace;
+  color: #333;
+  background: rgb(250, 250, 250);
+}
